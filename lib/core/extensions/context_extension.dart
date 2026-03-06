@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-extension ContextExtention on BuildContext {
+extension ContextExtension on BuildContext {
   TextStyle? get titleLarge => Theme.of(this).textTheme.titleLarge;
 
   TextStyle? get titleMedium => Theme.of(this).textTheme.titleMedium;

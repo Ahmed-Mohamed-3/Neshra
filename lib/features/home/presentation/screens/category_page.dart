@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:neshra/core/extention/context_extention.dart';
+import 'package:neshra/core/extensions/context_extension.dart';
 class CategoryPage extends StatelessWidget {
   CategoryPage({super.key, required this.onClick});
 

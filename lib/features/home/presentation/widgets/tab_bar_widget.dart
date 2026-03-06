@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:neshra/core/error/failure_localization.dart';
-import 'package:neshra/core/extention/context_extention.dart';
+import 'package:neshra/core/extensions/context_extension.dart';
 import 'package:neshra/features/home/presentation/cubit/home_cubit.dart';
 import 'package:neshra/features/home/presentation/cubit/home_states.dart';
 import 'package:neshra/features/home/presentation/widgets/news_shimmer.dart';

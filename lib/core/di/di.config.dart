@@ -25,7 +25,7 @@ import '../../features/home/domain/use_cases/get_sources_use_case.dart'
     as _i130;
 import '../../features/home/presentation/cubit/home_cubit.dart' as _i9;
 import '../cashing/stores.dart' as _i677;
-import '../network/api_manger.dart' as _i310;
+import '../network/api_manager.dart' as _i310;
 import '../network/network_info.dart' as _i932;
 
 extension GetItInjectableX on _i174.GetIt {
@@ -39,7 +39,7 @@ extension GetItInjectableX on _i174.GetIt {
       environment,
       environmentFilter,
     );
-    gh.factory<_i310.ApiManger>(() => _i310.ApiManger());
+    gh.factory<_i310.ApiManager>(() => _i310.ApiManager());
     gh.lazySingleton<_i677.AppSettingsStore>(() => _i677.AppSettingsStore());
     gh.lazySingleton<_i677.SourcesStore>(() => _i677.SourcesStore());
     gh.lazySingleton<_i677.NewsStore>(() => _i677.NewsStore());
@@ -51,7 +51,7 @@ extension GetItInjectableX on _i174.GetIt {
     gh.factory<_i795.AppSettingsLocalDataSource>(
         () => _i795.AppSettingsLocalDataSource(gh<_i677.AppSettingsStore>()));
     gh.factory<_i735.HomeRemoteDs>(
-        () => _i471.HomeRemoteDSImpl(gh<_i310.ApiManger>()));
+        () => _i471.HomeRemoteDSImpl(gh<_i310.ApiManager>()));
     gh.lazySingleton<_i396.HomeRepo>(() => _i1013.HomeRepoImpl(
           gh<_i735.HomeRemoteDs>(),
           gh<_i64.HomeLocalDs>(),

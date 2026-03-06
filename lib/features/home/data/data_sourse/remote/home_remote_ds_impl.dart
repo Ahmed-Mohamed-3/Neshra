@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
-import 'package:neshra/core/network/api_manger.dart';
+import 'package:neshra/core/network/api_manager.dart';
 import 'package:neshra/core/network/endpoint.dart';
 import 'package:neshra/features/home/data/data_sourse/remote/home_remote_ds.dart';
 import 'package:neshra/features/home/data/models/news_model.dart';
 import 'package:neshra/features/home/data/models/source_model.dart';
 @Injectable(as: HomeRemoteDs)
 class HomeRemoteDSImpl implements HomeRemoteDs {
-  ApiManger apiManger;
+  ApiManager apiManger;
 
   HomeRemoteDSImpl(this.apiManger);
 

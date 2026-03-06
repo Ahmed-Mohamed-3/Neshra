@@ -4,10 +4,10 @@ import 'package:neshra/core/network/constants.dart';
 import 'package:neshra/core/network/dio_interceptor.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 @injectable
-class ApiManger {
+class ApiManager {
   late final Dio dio;
 
-  ApiManger() {
+  ApiManager() {
     dio = Dio(
       BaseOptions(
         baseUrl: Constants.baseUrl,
