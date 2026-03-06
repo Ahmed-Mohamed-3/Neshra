@@ -1,0 +1,29 @@
+{
+  "good_morning": "صباح الخير\nإليك بعض الأخبار لك",
+  "home": "الرئيسية",
+  "business": "أعمال",
+  "entertainment": "ترفيه",
+  "general": "عام",
+  "health": "صحة",
+  "science": "علوم",
+  "sports": "رياضة",
+  "view_all": "مشاهده الكل",
+  "technology": "تكنولوجيا",
+  "app_name": "تطبيق الأخبار",
+  "go_to_home": "الذهاب إلى\n الصفحة الرئيسية",
+  "theme": "السمة",
+  "language": "اللغة",
+  "dark": "داكن",
+  "light": "فاتح",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+  "status" : "لم يتم العثور على أي أخبار",
+  "view_full_article": "عرض المقال بالكامل",
+  "errors": {
+    "no_internet": "مفيش اتصال بالإنترنت",
+    "timeout": "الاتصال اتأخر",
+    "not_found": "المورد مش موجود",
+    "unknown": "حصل خطأ غير متوقع",
+    "server_with_code": "مشكلة في السيرفر (كود: {code})"
+  }
+}

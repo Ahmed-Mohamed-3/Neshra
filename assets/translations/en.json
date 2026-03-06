@@ -1,0 +1,29 @@
+{
+  "good_morning": "Good Morning\nHere is Some News For You",
+  "home": "Home",
+  "business": "Business",
+  "entertainment": "Entertainment",
+  "general": "General",
+  "health": "Health",
+  "science": "Science",
+  "sports": "Sport",
+  "view_all": "View All",
+  "technology": "Technology",
+  "app_name": "News App",
+  "go_to_home": "Go to Home",
+  "theme": "Theme",
+  "language": "Language",
+  "dark": "Dark",
+  "light": "Light",
+  "english": "English",
+  "arabic": "Arabic",
+  "status" : "No news found",
+  "view_full_article": "View Full Article",
+  "errors": {
+    "no_internet": "No internet connection",
+    "timeout": "Connection timed out",
+    "not_found": "Resource not found",
+    "unknown": "An unexpected error occurred",
+    "server_with_code": "Server error (code: {code})"
+  }
+}
